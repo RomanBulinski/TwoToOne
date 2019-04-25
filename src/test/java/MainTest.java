@@ -8,7 +8,7 @@ public class MainTest {
     @Test
     public void test() {
         System.out.println("longest Fixed Tests");
-        assertEquals("aehrsty", TwoToOne.longest("aretheyhere", "yestheyarehere"));
+        assertEquals("aehrsty", Main.longest("aretheyhere", "yestheyarehere"));
         assertEquals("abcdefghilnoprstu", Main.longest("loopingisfunbutdangerous", "lessdangerousthancoding"));
         assertEquals("acefghilmnoprstuy", Main.longest("inmanylanguages", "theresapairoffunctions"));
     }
